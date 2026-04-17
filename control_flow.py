@@ -58,7 +58,7 @@ for i in range(1, 15, 3):
 print("")
 print("FOR ELSE")
 #For else
-num = [1, 2, 3, 4, ]
+num = [1, 2, 3, 4,5 ]
 
 for n in num:
     if n == 5:
@@ -68,9 +68,9 @@ else:
     print("5 was not found")
 
 for i in num:
-    if i % i and i % 1 == 0:
+    if i % i == 0 and i % 1 == 0:
         print(f"{i} is a prime number")
-        break
+        
 else:
     print(f"{i} is not a prime number")
 
